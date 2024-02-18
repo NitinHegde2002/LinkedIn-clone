@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  display: flex;
+  border: 0.1px solid lightgray;
+  width: 100%;
+  z-index: 999;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.header__left {
+  display: flex;
+}
+.icon {
+  padding: 5px;
+
+  height: 22px;
+  background-color: #5594d3;
+  margin: 5px 5px 3px 30px;
+  border-radius: 7px;
+}
+.header__search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: grey;
+  background-color: #eef3f8;
+}
+input {
+  border: 0px solid;
+  background-color: #eef3f8;
+}
+
+.header__right {
+  display: flex;
+}
