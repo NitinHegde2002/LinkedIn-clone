@@ -8,6 +8,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import ChatIcon from "@mui/icons-material/Chat";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 function Header() {
   return (
@@ -27,7 +28,8 @@ function Header() {
         <HeaderOpt Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOpt Icon={ChatIcon} title="Messages" />
         <HeaderOpt Icon={NotificationsIcon} title="Notification" />
-        <HeaderOpt avatar="" title="me" />
+        {/* <HeaderOpt Avatar="src/avatar.jpg" title="me" /> */}
+        <HeaderOpt Icon={AccountCircleIcon} title="me" />
       </div>
     </div>
   );
